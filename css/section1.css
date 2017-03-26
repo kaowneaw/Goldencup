@@ -1,0 +1,47 @@
+html,
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+.goldencup-nav {
+    background-color: #BF3314;
+    color: white;
+}
+.text-red-golden {
+    color: #BF3314;
+}
+#section1 {
+    display: block;
+    background-image: url('../img/section1/home_bg.jpg');
+    height: 100%;
+    position: relative;
+    padding-top: 150px;
+}
+.navbar {
+    padding: 0 !important;
+}
+.navbar-default .navbar-nav>li>a {
+    color: white;
+}
+.leaf-paper-mint {
+    max-width: 50%;
+    max-height: 100%;
+    z-index: -1;
+}
+.golden-cup {
+    max-width: 50%;
+    max-height: 100%;
+    margin-top: 20%;
+    z-index: -1;
+}
+.title-section {
+    position: absolute;
+    width: 520px;
+    top: inherit;
+    left: calc(50% - 260px);
+    color: white;
+}
+#Slider {
+    min-width: 520px;
+}

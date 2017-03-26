@@ -1,0 +1,118 @@
+#section3 {
+    display: block;
+    min-height: 100%;
+    position: relative;
+    padding-top: 70px;
+    background: #D4D4D4;
+    /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#D4D4D4, white);
+    /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#D4D4D4, white);
+    /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#D4D4D4, white);
+    /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#D4D4D4, white);
+    /* Standard syntax */
+}
+.oli {
+    /*margin-top: 10%;
+    z-index: -1;*/
+    background-image: url('../img/section3/product_img.png');
+    background-repeat: no-repeat;
+}
+.container-area {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 5%;
+}
+.menu-slider {
+    width: 100%;
+    height: 140px;
+    margin-top: 25px;
+    text-align: center;
+}
+.menu-warper {
+    width: 646px;
+    height: 140px;
+    margin: 0 auto;
+}
+.menu-warper a {
+    color: black;
+}
+.pics {
+    position: relative;
+}
+.slide {
+    cursor: pointer;
+}
+.menu-row {
+    background-color: transparent !important;
+    width: 566px;
+}
+.menu-row .item {
+    float: left;
+    padding: 10px 6px;
+    margin: 5px 10px 5px 10px;
+    height: 120px;
+    width: 120px;
+}
+.menu-row .item.active {
+    border-style: solid;
+    border-color: #F68121;
+    border-width: 3px;
+    border-radius: 6px;
+}
+.menu-row .item img {
+    max-width: 52px;
+    max-height: 52px;
+}
+.menu-row .item p {
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+.menu-slider-nav {
+    margin-top: 50px;
+}
+.bar {
+    float: left;
+    width: 2px;
+    background-color: grey;
+    height: 80px;
+    margin-top: 25px;
+}
+.img-thumnail-preview {
+    position: relative;
+    float: left;
+    width: 420px;
+    padding: 15px;
+    margin-top: 15px;
+    border-radius: 10px;
+    border: 6px solid black;
+    background-color: white;
+}
+.img-thumnail-preview img {
+    margin: 0 auto;
+    padding: 15px;
+}
+.img-thumnail-preview ul {
+    list-style: none outside none;
+    padding-left: 0;
+    margin-bottom: 0;
+}
+.img-thumnail-preview li {
+    display: block;
+    float: left;
+    margin-right: 6px;
+    cursor: pointer;
+}
+.img-thumnail-preview img {
+    display: block;
+    height: 100%;
+    max-width: 100%;
+}
+.golden-box-wrapper {
+    float: right;
+    padding: 25px;
+}
