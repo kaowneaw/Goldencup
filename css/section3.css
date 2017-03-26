@@ -75,21 +75,20 @@
 .menu-slider-nav {
     margin-top: 50px;
 }
-.bar {
-    float: left;
-    width: 2px;
-    background-color: grey;
-    height: 80px;
-    margin-top: 25px;
+
+.carousel {
+    /*padding-left: 30px;
+    padding-right: 30px;*/
 }
+
 .img-thumnail-preview {
     position: relative;
     float: left;
-    width: 420px;
+    width: 450px;
     padding: 15px;
     margin-top: 15px;
     border-radius: 10px;
-    border: 6px solid black;
+    border: 6px solid #7D7D7D;
     background-color: white;
 }
 .img-thumnail-preview img {
@@ -115,4 +114,9 @@
 .golden-box-wrapper {
     float: right;
     padding: 25px;
+}
+
+.lSPager li{
+    border: 1px solid  #7D7D7D;
+    border-radius: 8px;
 }
