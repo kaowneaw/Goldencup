@@ -1,29 +1,13 @@
-html,
-body {
-    width: 100%;
-    height: 100%;
-    margin: 0;
-}
-.goldencup-nav {
-    background-color: #BF3314;
-    color: white;
-}
-.text-red-golden {
-    color: #BF3314;
-}
+
 #section1 {
     display: block;
     background-image: url('../img/section1/home_bg.jpg');
-    height: 100%;
+    min-height: 100%;
+    background-repeat: no-repeat;
     position: relative;
     padding-top: 150px;
 }
-.navbar {
-    padding: 0 !important;
-}
-.navbar-default .navbar-nav>li>a {
-    color: white;
-}
+
 .leaf-paper-mint {
     max-width: 50%;
     max-height: 100%;
@@ -37,11 +21,39 @@ body {
 }
 .title-section {
     position: absolute;
-    width: 520px;
-    top: inherit;
-    left: calc(50% - 260px);
+    max-width: 620px;
+    min-width: 300px;
+    top: 0;
+    left: 50%;
+    -webkit-transform: translate(-50%, 0);
+    -moz-transform: translate(-50%, 0);
+    -ms-transform: translate(-50%, 0);
+    -o-transform: translate(-50%, 0);
+    transform: translate(-50%, 0);
     color: white;
 }
 #Slider {
-    min-width: 520px;
+    min-width: 100%;
+}
+
+@media only screen and (min-width: 768px) {
+   #Slider{
+       width: 620px;
+   }
+}
+
+@media only screen and (max-width: 768px) {
+   #Slider{
+       width: 420px;
+   }
+}
+
+@media only screen and (max-width: 480px) {
+   #Slider{
+       width: 300px;
+   }
+
+   .golden-cup{
+       margin-top: 80%;
+   }
 }

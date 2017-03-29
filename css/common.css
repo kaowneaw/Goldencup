@@ -1,0 +1,26 @@
+html,
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+
+.img-logo-topbar{
+    width:150px;
+}
+
+.goldencup-nav {
+    background-color: #BF3314;
+    color: white;
+}
+.text-red-golden {
+    color: #BF3314;
+}
+
+.navbar {
+    padding: 0 !important;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: white;
+}
