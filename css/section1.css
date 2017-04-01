@@ -3,7 +3,6 @@
     display: block;
     background-image: url('../img/section1/home_bg.jpg');
     min-height: 100%;
-    background-repeat: no-repeat;
     position: relative;
     padding-top: 150px;
 }

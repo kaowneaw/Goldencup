@@ -17,8 +17,9 @@
 .oli {
     /*margin-top: 10%;
     z-index: -1;*/
-    background-image: url('../img/section3/product_img.png');
+    background-image: url('../img/section3/pic_bg.png');
     background-repeat: no-repeat;
+    background-position: 0px 100px; 
 }
 .container-area {
     position: absolute;
@@ -76,16 +77,11 @@
     margin-top: 50px;
 }
 
-.carousel {
-    /*padding-left: 30px;
-    padding-right: 30px;*/
-}
-
 .img-thumnail-preview {
     position: relative;
     float: left;
     width: 450px;
-    padding: 15px;
+    padding: 35px;
     margin-top: 15px;
     border-radius: 10px;
     border: 6px solid #7D7D7D;
@@ -113,7 +109,9 @@
 }
 .golden-box-wrapper {
     float: right;
-    padding: 25px;
+    width: 652px;
+    height:565px;
+    background-image: url('../img/section3/bg_right_product.png');
 }
 
 .lSPager li{
