@@ -1,0 +1,127 @@
+#section4 {
+    display: block;
+    background-image: url('../img/section4/global_bg.jpg');
+    height: 100%;
+    position: relative;
+    padding-top: 80px;
+}
+.where-to-buy {
+    /*padding-bottom: 15px;*/
+}
+.where-to-buy p {
+    color: #BF3314;
+    font-size: 28px;
+    font-weight: bold;
+    text-align: center;
+} 
+.list-menu-wtb ul {
+    list-style: none;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+.list-menu-wtb ul li {
+    display: inline;
+    padding: 0 20px;
+}
+.list-menu-wtb a {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    color: #6B6B6B;
+    padding: 7px;
+}
+.list-menu-wtb a:hover {
+    border: 3px solid #F68121;
+    border-radius: 10px;
+    text-decoration: none;
+    color: #6B6B6B;
+}
+.silde-wheretobuy img {
+    width: 400px;
+}
+.golden-cup-shop {
+    /*margin-top: 25px;*/
+}
+.topic p {
+    font-size: 70px;
+    color: #BF3314;
+    font-weight: bold;
+}
+.topic-detail {
+    width: 90%;
+    background-color: white;
+    padding: 10px 15px;
+    border-radius: 10px;
+    border: 3px solid #F68121;
+}
+.topic-detail p {
+    font-size: 18px;
+    color: #BF3314;
+    /*line-height: 40px;*/
+    width: 90%;
+}
+.footer-wheretobuy {
+    background-color: #BF3314;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 15%;
+    color: white;
+    text-align: center;
+}
+.footer-wheretobuy ul {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    list-style: none;
+}
+.footer-wheretobuy li {
+    display: inline;
+    margin: 5px;
+    /*border-radius: 5px;*/
+}
+.footer-wheretobuy img {
+    width: 30px;
+    height: 30px;
+    border-radius: 5px;
+}
+@media (min-width: 320px) and (max-width: 480px) {
+    #section4 {
+        padding-top: 70px;
+    }
+    .where-to-buy {
+        padding-bottom: 0;
+    }
+    .where-to-buy p {
+        font-size: 18px;
+        margin-bottom: 5px;
+    }
+    .list-menu-wtb a {
+        font-size: 14px;
+        padding: 4px;
+    }
+    .silde-wheretobuy img {
+        width: 200px;
+    }
+    .topic p {
+        font-size: 30px;
+        text-align: center;
+    }
+    .topic-detail {
+        padding: 5px 7px;
+    }
+    .topic-detail p {
+        font-size: 11px;
+        line-height: 15px;
+    }
+    .footer-wheretobuy {
+        height: 10%;
+    }
+    .footer-wheretobuy h1 {
+        color: white;
+        font-size: small;
+        text-align: center;
+        margin-top: 10px;
+    }
+}

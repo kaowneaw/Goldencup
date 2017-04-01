@@ -1,0 +1,61 @@
+#section2 {
+    display: block;
+    min-height: 100%;
+    position: relative;
+    padding-top: 70px;
+    background: #D4D4D4;
+    /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#D4D4D4, white);
+    /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#D4D4D4, white);
+    /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#D4D4D4, white);
+    /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#D4D4D4, white);
+    /* Standard syntax */
+}
+.about {
+    top: 0;
+    position: absolute;
+}
+.list-menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+.list-menu li {
+    display: inline;
+    padding: 0 20px;
+}
+.list-menu a {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    color: #6B6B6B;
+    padding: 7px;
+}
+.list-menu a:hover {
+    border: 3px solid #F68121;
+    border-radius: 10px;
+    text-decoration: none;
+    color: #6B6B6B;
+}
+.menu {
+    line-height: 30px;
+}
+.intro-vdo iframe {
+    width: 300px;
+}
+@media (min-width: 320px) and (max-width: 480px) {
+    .list-menu li {
+        padding: 0 8px;
+    }
+    .list-menu a {
+        font-size: 14px;
+        padding: 4px;
+    }
+    .list-submenu p {
+        font-size: 14px;
+    }
+}
