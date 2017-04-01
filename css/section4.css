@@ -1,12 +1,9 @@
 #section4 {
     display: block;
     background-image: url('../img/section4/global_bg.jpg');
-    height: 100%;
+    min-height: 100%;
     position: relative;
-    padding-top: 80px;
-}
-.where-to-buy {
-    /*padding-bottom: 15px;*/
+    padding-top: 70px;
 }
 .where-to-buy p {
     color: #BF3314;
@@ -100,9 +97,6 @@
     .list-menu-wtb a {
         font-size: 14px;
         padding: 4px;
-    }
-    .silde-wheretobuy img {
-        width: 200px;
     }
     .topic p {
         font-size: 30px;
