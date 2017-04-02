@@ -45,7 +45,7 @@
     line-height: 30px;
 }
 .intro-vdo iframe {
-    width: 300px;
+    padding-top: 80px;
 }
 @media (min-width: 320px) and (max-width: 480px) {
     .list-menu li {

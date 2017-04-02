@@ -86,6 +86,7 @@
     border-radius: 10px;
     border: 6px solid #7D7D7D;
     background-color: white;
+    margin-bottom: 40px;
 }
 .img-thumnail-preview img {
     margin: 0 auto;
@@ -112,6 +113,24 @@
     width: 652px;
     height:565px;
     background-image: url('../img/section3/bg_right_product.png');
+    margin-bottom: 50px;
+    padding-left: 25px;
+}
+
+.golden-box-title{
+    font-family: 'ralewaybold';
+    color: white;
+    margin-top: 80px;
+    margin-bottom: 40px;
+}
+
+.golden-box-wrapper p{
+    color: white;
+    font-size: 16px;
+}
+
+.golden-box-wrapper .list{
+    color:yellow;
 }
 
 .lSPager li{

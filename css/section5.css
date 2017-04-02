@@ -1,6 +1,6 @@
 #section5 {
     display: block;
-    height: 100%;
+    min-height: 100%;
     position: relative;
     padding-top: 70px;
     background: #D4D4D4;

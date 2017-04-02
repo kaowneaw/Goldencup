@@ -11,3 +11,12 @@ $('#lightSlider').lightSlider({
         slideMargin: 0,
         thumbItem: 4
 });
+
+
+$('#lightSlider2').lightSlider({
+        gallery: true,
+        item: 1,
+        loop: true,
+        slideMargin: 0,
+        thumbItem: 4
+});

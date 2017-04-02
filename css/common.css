@@ -18,12 +18,25 @@ body {
     color: #BF3314;
 }
 
+.text-white {
+    color: white;
+}
+
 .navbar {
     padding: 0 !important;
 }
 
 .navbar-default .navbar-nav>li>a {
     color: white;
+}
+
+.pagination .active a{
+  background: #F68121 !important;
+  border-color: #F68121 !important;
+}
+
+.pagination a{
+  color: black !important;
 }
 
 @media only screen and (max-width: 768px) {

@@ -63,8 +63,9 @@
     position: absolute;
     bottom: 0;
     width: 100%;
-    height: 15%;
+    /*height: 15%;*/
     color: white;
+    padding-bottom: 20px;
     text-align: center;
 }
 .footer-wheretobuy ul {
@@ -79,8 +80,8 @@
     /*border-radius: 5px;*/
 }
 .footer-wheretobuy img {
-    width: 30px;
-    height: 30px;
+    /*width: 30px;
+    height: 30px;*/
     border-radius: 5px;
 }
 @media (min-width: 320px) and (max-width: 480px) {
