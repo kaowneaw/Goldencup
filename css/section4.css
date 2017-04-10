@@ -110,6 +110,9 @@
     right: 0;
     bottom: 0;
 }
+.marker-point img{
+    display: none;
+}
 
 .usa-point {
     position: absolute;
@@ -199,6 +202,126 @@
     position: absolute;
     left: 505px;
     top: 233px;
+}
+
+.circle-point,
+.usa-circle,
+.cambodia-circle,
+.czech-circle,
+.german-circle,
+.hongkong-circle,
+.indo-circle,
+.israel-circle,
+.laos-circle,
+.myamar-circle,
+.nather-circle,
+.qatar-circle,
+.swe-circle,
+.uae-circle,
+.uk-circle,
+.usa-circle,
+.vieatnam-circle {
+    border-radius: 50%;
+    border: 1px white solid;
+    width: 13px;
+    height: 13px;
+    background-color: #BD1E12;
+}
+
+.usa-circle {
+    position: absolute;
+    left: 113px;
+    top: 168px;
+}
+
+.cambodia-circle {
+    position: absolute;
+    left: 515px;
+    top: 153px;
+}
+
+.czech-circle {
+    position: absolute;
+    left: 595px;
+    top: 272px;
+}
+
+.german-circle {
+    position: absolute;
+    left: 487px;
+    top: 145px;
+}
+
+.hongkong-circle {
+    position: absolute;
+    left: 855px;
+    top: 226px;
+}
+
+.indo-circle {
+    position: absolute;
+    left: 795px;
+    top: 313px;
+}
+
+.israel-circle {
+    position: absolute;
+    left: 575px;
+    top: 208px;
+}
+
+.laos-circle {
+    position: absolute;
+    left: 800px;
+    top: 248px;
+}
+
+.myamar-circle {
+    position: absolute;
+    left: 777px;
+    top: 250px;
+}
+
+.nather-circle {
+    position: absolute;
+    left: 478px;
+    top: 128px;
+}
+
+.qatar-circle {
+    position: absolute;
+    left: 612px;
+    top: 236px;
+}
+
+.swe-circle {
+    position: absolute;
+    left: 501px;
+    top: 95px;
+}
+
+.uae-circle {
+    position: absolute;
+    left: 639px;
+    top: 237px;
+}
+
+.uk-circle {
+    position: absolute;
+    left: 452px;
+    top: 124px;
+}
+
+.usa-circle {
+    position: absolute;
+    left: 113px;
+    top: 167px;
+}
+
+.vieatnam-circle {
+    position: absolute;
+    left: 816px;
+    top: 273px;
 }
 
 @media (min-width: 320px) and (max-width: 480px) {
