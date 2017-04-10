@@ -30,7 +30,7 @@
     color: #6B6B6B;
     padding: 7px;
     cursor: pointer;
-}
+}   
 
 .list-menu a:hover {
     border: 3px solid #F68121;
@@ -54,6 +54,7 @@
 .about-content{
     overflow: hidden;
     margin-top: 45px;
+    margin-bottom: 25px;
 }
 
 .box-golden-left{
