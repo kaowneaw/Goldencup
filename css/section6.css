@@ -6,15 +6,27 @@
 }
 .map {
     /*background-color: #BF3314;*/
+    padding: 0;
+}
+#googleMap {
+    height: 450px;
+}
+.menu-map {
+    position: absolute;
+    background-color: white;
+    top: 40px;
 }
 .contact-form {
     background-color: #6B6B6B;
+    height: 450px;
+    color: white;
 }
 .form {
     padding-top: 100px;
 }
 .form h1 {
     margin: 0;
+    font-weight: bold;
 }
 .form input {
     border: none;
@@ -29,6 +41,61 @@ input::-webkit-input-placeholder { /* Chrome/Opera/Safari */
 }
 .footer {
     background-color: #BF3314;
-    height: 200px;
+    height: 300px;
+    clear: both;
+}
+.logo-footer {
+    padding: 0;
+}
+.logo-footer img {
+    float: right;
+}
+.contact-footer {
+    padding-top: 15px;
+}
+.contact-footer .contact-info {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+.place {
+    color: yellow;
+}
+.contact-factory {
+    padding: 0;
+    color: white;
+}
+.contact-showroom {
+    padding: 0;
+    color: white;
+}
+.detail-contact-footer {
+    height: 190px;
+    border-bottom: 1px solid white;
+}
+.copyright {
+    color: white;
+    margin-top: 10px;
 }
 
+@media (max-width: 992px){
+    .logo-footer {
+        visibility: hidden;
+        height: 0;
+    }
+    .logo-footer img {
+        visibility: hidden;
+        height: 0;
+    }
+    .copyright {
+        text-align: center;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .detail-contact-footer p {
+        font-size: 12px;
+    }
+    .copyright {
+        font-size: 12px;
+    }
+}

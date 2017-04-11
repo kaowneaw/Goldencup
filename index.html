@@ -109,17 +109,11 @@
             <img src="img/section2/about_image2.png" class="img-responsive">
         </div>
         <div class="container" style="min-height: 100%;position: relative;">
-            <!--<div class="leaf-paper-mint pull-left">
-                <img src="img/section2/about_image.png" class="img-responsive">
-            </div>
-            <div class="golden-cup pull-right">
-                <img src="img/section2/about_image2.png" class="img-responsive">
-            </div>-->
             <div class="container about">
                 <div class="about-menu">
                     <h1 class="text-red-golden text-center header" style="margin-top: 0px;">ABOUT US</h1>
                     <div class="menu">
-                        <ul class="list-menu">
+                        <ul class="list-inline list-menu">
                             <li>
                                 <a>INTRODUCTION</a>
                             </li>
@@ -134,39 +128,22 @@
                             </li>
                         </ul>
                     </div>
-            <!--<div class="about-menu">
-                <h1 class="text-red-golden text-center header" style="margin-top: 0px;">ABOUT US</h1>
-                <div class="menu">
-                    <ul class="list-inline list-menu">
-                        <li>
-                            <a>INTRODUCTION</a>
-                        </li>
-                        <li>
-                            <a>COMPANY PROFILE</a>
-                        </li>
-                        <li>
-                            <a>VISION</a>
-                        </li>
-                        <li>
-                            <a>MANUFACTURING</a>
-                        </li>
-                    </ul>
                 </div>
-            </div>-->
-            <div class="about-content">
-                <div class="row">
-                    <div class="intro-vdo col-md-5">
-                        <iframe class="youtube" width="400" height="300" src="https://www.youtube.com/embed/HQp5hQ67TEs" frameborder="0" allowfullscreen></iframe>
-                    </div>
-                    <div class="golden-cup-shop col-md-7">
-                        <div class="topic">
-                            <p>"RUB & RUB" <br>TO RELIEVE</p>
+                <div class="about-content">
+                    <div class="row">
+                        <div class="intro-vdo col-md-5">
+                            <iframe class="youtube" width="400" height="300" src="https://www.youtube.com/embed/HQp5hQ67TEs" frameborder="0" allowfullscreen></iframe>
                         </div>
-                        <div class="topic-detail">
-                            <p>Golden Cup Balm, a world famous topical pain relieving ointment has been proven effective for
-                                more than 60 years and is used by millions of people. Golden Cup Pharmaceutical Co., Ltd.
-                                has served consumer world-wide with our Thailand market leader “Golden Cup Balm”, made from
-                                herbal ingredients offering gentle with a multipurpose relief.</p>
+                        <div class="golden-cup-shop col-md-7">
+                            <div class="topic">
+                                <p>"RUB & RUB" <br>TO RELIEVE</p>
+                            </div>
+                            <div class="topic-detail">
+                                <p>Golden Cup Balm, a world famous topical pain relieving ointment has been proven effective for
+                                    more than 60 years and is used by millions of people. Golden Cup Pharmaceutical Co., Ltd.
+                                    has served consumer world-wide with our Thailand market leader “Golden Cup Balm”, made from
+                                    herbal ingredients offering gentle with a multipurpose relief.</p>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -414,7 +391,10 @@
     </section>
     <section id="section6">
         <div class="container">
-            <div id="googleMap" class="col-md-6 map"></div>
+            <div class="col-md-6 map">
+                <div id="googleMap"></div>
+                <div class="menu-map">MAP</div>
+            </div>
             <div class="col-md-6 contact-form">
                 <div class="form">
                     <h1>CONTACT FORM</h1>
@@ -432,10 +412,27 @@
             </div>
             <div class="footer">
                 <div class="logo-footer col-md-5">
-                        <!--<img src="img/header_logo2.png">-->
+                    <img src="img/header_logo2.png">
                 </div>
                 <div class="contact-footer col-md-7">
-                    <p>contact</p>
+                    <p class="contact-info">CONTACT INFORMATION</p>
+                    <div class="detail-contact-footer">
+                        <div class="contact-factory col-md-6 col-xs-6">
+                            <p class="place">Gloden Cup Pharmaceutical Co.,Ltd. (Factory)</p>
+                            <p>28/9 MOO 4, Bangmaenang, Bangyai, Nonthaburi 11140, THAILAND</p>
+                            <p>TEL : +66(2) 1918755</p>
+                            <p>FAX : +66(2) 1918756</p>
+                            <p>E-MAIL : info@goldencup.co.th</p>
+                        </div>
+                        <div class="contact-showroom col-md-6 col-xs-6">
+                            <p class="place">Gloden Cup Showroom</p>
+                            <p>28/9 MOO 4, Bangmaenang, Bangyai, Nonthaburi 11140, THAILAND</p>
+                            <p>TEL : +66(2) 1918755</p>
+                            <p>FAX : +66(2) 1918756</p>
+                            <p>E-MAIL : info@goldencup.co.th</p>
+                        </div>
+                    </div>
+                    <p class="copyright">Copyright &copy; 2016 Golden Cup Pharmaceutical Company Limited. All Rights Reserved.</p>
                 </div>
             </div>
         </div>
@@ -453,3 +450,13 @@
 <script type="text/javascript" src="asset/purejscarousel.js"></script>
 <script type="text/javascript" src="asset/lightslider.min.js"></script>
 <script type="text/javascript" src="js/my-script.js"></script>
+<script>
+function myMap() {
+    var mapCanvas = document.getElementById("googleMap");
+    var mapOptions = {center: new google.maps.LatLng(13.881826,100.36895), zoom: 15};
+    var map = new google.maps.Map(mapCanvas, mapOptions);
+    var marker = new google.maps.Marker({position:new google.maps.LatLng(13.881826,100.36895)});
+    marker.setMap(map);
+}
+</script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCOcycO6noTUR6u1jqqsQux2H1sRYAqFiQ&callback=myMap"></script>
