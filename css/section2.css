@@ -16,7 +16,7 @@
 }
 .about {
     top: 0;
-    position: absolute;
+    /*position: absolute;*/
 }
 .list-menu {
     list-style: none;
@@ -44,8 +44,12 @@
 .menu {
     line-height: 30px;
 }
+.intro-vdo {
+    text-align: center;
+}
 .intro-vdo iframe {
-    padding-top: 80px;
+    width: 80%;
+    height: 280px;
 }
 @media (min-width: 320px) and (max-width: 480px) {
     .list-menu li {
