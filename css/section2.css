@@ -14,7 +14,10 @@
     background: linear-gradient(#D4D4D4, white);
     /* Standard syntax */
 }
-
+.about {
+    top: 0;
+    /*position: absolute;*/
+}
 .list-menu {
     text-align: center;
 }
@@ -62,6 +65,13 @@
     max-height: 100%;
     position: absolute;
     top: 10%;
+}
+.intro-vdo {
+    text-align: center;
+}
+.intro-vdo iframe {
+    width: 80%;
+    height: 280px;
 }
 .leaf-right{
     max-width: 50%;
