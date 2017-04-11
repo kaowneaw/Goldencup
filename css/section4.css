@@ -1,9 +1,13 @@
 #section4 {
     display: block;
-    background-image: url('../img/section4/global_bg.jpg');
+    background: url('../img/section4/global_bg.jpg')  no-repeat center center fixed;
     min-height: 100%;
     position: relative;
     padding-top: 70px;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 .where-to-buy p {
@@ -33,7 +37,7 @@
     padding: 7px;
 }
 
-.list-menu-wtb a:hover {
+.menu-item-section4.active a {
     border: 3px solid #F68121;
     border-radius: 10px;
     text-decoration: none;
@@ -69,7 +73,6 @@
 
 .content-wheretobuy{
     margin-bottom: 30px;
-    overflow: hidden;
 }
 
 .footer-wheretobuy {
@@ -102,8 +105,10 @@
 
 .map-wrapper {
     position: relative;
-    margin: 0 auto;
-    width: 1000px
+    margin: 25px auto;
+    width: 1000px;
+    height: 400px;
+    display: none;
 }
 
 .marker-point {
@@ -239,14 +244,14 @@
 
 .cambodia-circle {
     position: absolute;
-    left: 515px;
-    top: 153px;
+    left: 795px;
+    top: 273px;
 }
 
 .czech-circle {
     position: absolute;
-    left: 595px;
-    top: 272px;
+    left: 516px;
+    top: 154px;
 }
 
 .german-circle {
@@ -327,6 +332,14 @@
     top: 273px;
 }
 
+.map-destop{
+    display: block;
+}
+
+.map-phone{
+    display: none;
+}
+
 @media (min-width: 320px) and (max-width: 480px) {
     #section4 {
         padding-top: 70px;
@@ -371,5 +384,19 @@
     .content-right {
         padding-left: 10%;
         padding-right: 10%;
+    }
+}
+
+
+@media (max-width: 1042px){
+    .map-destop{
+        display: none;
+    }
+
+    .map-phone{
+        display: block;
+    }
+    .map-wrapper{
+        width:auto;
     }
 }
