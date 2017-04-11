@@ -28,6 +28,7 @@ body {
 
 .navbar-default .navbar-nav>li>a {
     color: white;
+    opacity: 0.7;
 }
 
 .pagination .active a{
@@ -39,8 +40,30 @@ body {
   color: black !important;
 }
 
+.navbar-nav>.active>a{
+    color: white !important;
+    opacity: 1 !important;
+    background-color: #BF3314 !important;
+}
+
 @media only screen and (max-width: 768px) {
     .img-logo-topbar{
         width:150px;
+    }
+}
+
+@media (max-width: 1200px){
+    .container {
+        width: 100% !important;
+    }
+}
+
+@media (max-width: 480px){
+    .container {
+       padding: 0px !important;
+    }
+
+     .navbar .container {
+       padding: 15px !important;
     }
 }

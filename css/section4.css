@@ -5,22 +5,26 @@
     position: relative;
     padding-top: 70px;
 }
+
 .where-to-buy p {
     color: #BF3314;
     font-size: 28px;
     font-weight: bold;
     text-align: center;
-} 
+}
+
 .list-menu-wtb ul {
     list-style: none;
     text-align: center;
     padding: 0;
     margin: 0;
 }
+
 .list-menu-wtb ul li {
     display: inline;
     padding: 0 20px;
 }
+
 .list-menu-wtb a {
     text-decoration: none;
     font-size: 20px;
@@ -28,62 +32,301 @@
     color: #6B6B6B;
     padding: 7px;
 }
+
 .list-menu-wtb a:hover {
     border: 3px solid #F68121;
     border-radius: 10px;
     text-decoration: none;
     color: #6B6B6B;
 }
+
 .silde-wheretobuy img {
     width: 400px;
 }
+
 .golden-cup-shop {
-    /*margin-top: 25px;*/
+    margin-top: 35px;
 }
+
 .topic p {
-    font-size: 70px;
+    font-size: 62px;
     color: #BF3314;
     font-weight: bold;
 }
+
 .topic-detail {
-    width: 90%;
     background-color: white;
-    padding: 10px 15px;
+    padding: 15px;
     border-radius: 10px;
     border: 3px solid #F68121;
 }
+
 .topic-detail p {
     font-size: 18px;
     color: #BF3314;
     /*line-height: 40px;*/
-    width: 90%;
 }
+
+.content-wheretobuy{
+    margin-bottom: 30px;
+    overflow: hidden;
+}
+
 .footer-wheretobuy {
     background-color: #BF3314;
-    position: absolute;
-    bottom: 0;
     width: 100%;
-    /*height: 15%;*/
     color: white;
     padding-bottom: 20px;
     text-align: center;
 }
+
 .footer-wheretobuy ul {
     padding: 0;
-    margin: 0;
+    margin-top:15px;
+    margin-bottom: 30px;
     text-align: center;
     list-style: none;
 }
+
 .footer-wheretobuy li {
     display: inline;
     margin: 5px;
     /*border-radius: 5px;*/
 }
+
 .footer-wheretobuy img {
     /*width: 30px;
     height: 30px;*/
     border-radius: 5px;
 }
+
+.map-wrapper {
+    position: relative;
+    margin: 0 auto;
+    width: 1000px
+}
+
+.marker-point {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+.marker-point img{
+    display: none;
+}
+
+.usa-point {
+    position: absolute;
+    left: 70px;
+    top: 140px;
+}
+
+.swe-point {
+    position: absolute;
+    left: 458px;
+    top: 68px;
+}
+
+.uk-point {
+    position: absolute;
+    left: 345px;
+    top: 120px;
+}
+
+.uae-point {
+    position: absolute;
+    left: 595px;
+    top: 236px;
+}
+
+.cambodia-point {
+    position: absolute;
+    left: 700px;
+    top: 269px;
+}
+
+.vieatnam-point {
+    position: absolute;
+    left: 815px;
+    top: 269px;
+}
+
+.czech-point {
+    position: absolute;
+    left: 515px;
+    top: 150px;
+}
+
+.german-point {
+    position: absolute;
+    left: 380px;
+    top: 140px;
+}
+
+.nather-point {
+    position: absolute;
+    left: 478px;
+    top: 125px;
+}
+
+.hongkong-point {
+    position: absolute;
+    left: 788px;
+    top: 200px;
+}
+
+.indo-point {
+    position: absolute;
+    left: 700px;
+    top: 310px;
+}
+
+.laos-point {
+    position: absolute;
+    left: 800px;
+    top: 245px;
+}
+
+.israel-point {
+    position: absolute;
+    left: 575px;
+    top: 205px;
+}
+
+.myamar-point {
+    position: absolute;
+    left: 690px;
+    top: 225px;
+}
+
+.qatar-point {
+    position: absolute;
+    left: 505px;
+    top: 233px;
+}
+
+.circle-point,
+.usa-circle,
+.cambodia-circle,
+.czech-circle,
+.german-circle,
+.hongkong-circle,
+.indo-circle,
+.israel-circle,
+.laos-circle,
+.myamar-circle,
+.nather-circle,
+.qatar-circle,
+.swe-circle,
+.uae-circle,
+.uk-circle,
+.usa-circle,
+.vieatnam-circle {
+    border-radius: 50%;
+    border: 1px white solid;
+    width: 13px;
+    height: 13px;
+    background-color: #BD1E12;
+}
+
+.usa-circle {
+    position: absolute;
+    left: 113px;
+    top: 168px;
+}
+
+.cambodia-circle {
+    position: absolute;
+    left: 515px;
+    top: 153px;
+}
+
+.czech-circle {
+    position: absolute;
+    left: 595px;
+    top: 272px;
+}
+
+.german-circle {
+    position: absolute;
+    left: 487px;
+    top: 145px;
+}
+
+.hongkong-circle {
+    position: absolute;
+    left: 855px;
+    top: 226px;
+}
+
+.indo-circle {
+    position: absolute;
+    left: 795px;
+    top: 313px;
+}
+
+.israel-circle {
+    position: absolute;
+    left: 575px;
+    top: 208px;
+}
+
+.laos-circle {
+    position: absolute;
+    left: 800px;
+    top: 248px;
+}
+
+.myamar-circle {
+    position: absolute;
+    left: 777px;
+    top: 250px;
+}
+
+.nather-circle {
+    position: absolute;
+    left: 478px;
+    top: 128px;
+}
+
+.qatar-circle {
+    position: absolute;
+    left: 612px;
+    top: 236px;
+}
+
+.swe-circle {
+    position: absolute;
+    left: 501px;
+    top: 95px;
+}
+
+.uae-circle {
+    position: absolute;
+    left: 639px;
+    top: 237px;
+}
+
+.uk-circle {
+    position: absolute;
+    left: 452px;
+    top: 124px;
+}
+
+.usa-circle {
+    position: absolute;
+    left: 113px;
+    top: 167px;
+}
+
+.vieatnam-circle {
+    position: absolute;
+    left: 816px;
+    top: 273px;
+}
+
 @media (min-width: 320px) and (max-width: 480px) {
     #section4 {
         padding-top: 70px;
@@ -100,15 +343,11 @@
         padding: 4px;
     }
     .topic p {
-        font-size: 30px;
+        font-size: 32px;
         text-align: center;
     }
-    .topic-detail {
-        padding: 5px 7px;
-    }
     .topic-detail p {
-        font-size: 11px;
-        line-height: 15px;
+        font-size: 16px;
     }
     .footer-wheretobuy {
         height: 10%;
@@ -118,5 +357,19 @@
         font-size: small;
         text-align: center;
         margin-top: 10px;
+    }
+}
+
+@media (max-width: 1170px){
+    .silde-wheretobuy,.content-right{
+        float: none;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 992px){
+    .content-right {
+        padding-left: 10%;
+        padding-right: 10%;
     }
 }
