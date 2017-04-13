@@ -81,6 +81,8 @@
     color: white;
     padding-bottom: 20px;
     text-align: center;
+    position: relative;
+    margin-top: 50px;
 }
 
 .footer-wheretobuy ul {

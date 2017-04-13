@@ -12,7 +12,7 @@
     padding: 0;
 }
 #googleMap {
-    height: 450px;
+    height: 650px;
 }
 .menu-map {
     position: absolute;
@@ -30,11 +30,11 @@
 }
 .contact-form {
     background-color: #6B6B6B;
-    height: 450px;
+    height: 650px;
     color: white;
 }
 .form {
-    padding-top: 100px;
+    padding-top: 310px;
 }
 .form h1 {
     margin: 0;
