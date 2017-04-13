@@ -2,7 +2,10 @@
     display: block;
     min-height: 100%;
     position: relative;
-    padding-top: 70px;
+    padding-top: 50px;
+}
+.container {
+    padding: 0;
 }
 .map {
     /*background-color: #BF3314;*/
@@ -15,6 +18,15 @@
     position: absolute;
     background-color: white;
     top: 40px;
+    width: 100%;
+}
+.menu-map h1 {
+    float: left;
+    margin: 5px;
+    padding-left: 20%;
+}
+.menu-map ul {
+    margin-top: 10px;
 }
 .contact-form {
     background-color: #6B6B6B;
@@ -46,6 +58,7 @@ input::-webkit-input-placeholder { /* Chrome/Opera/Safari */
 }
 .logo-footer {
     padding: 0;
+    margin-top: 7%;
 }
 .logo-footer img {
     float: right;
@@ -77,11 +90,36 @@ input::-webkit-input-placeholder { /* Chrome/Opera/Safari */
     color: white;
     margin-top: 10px;
 }
+.btn-submit {
+    float: left;
+    background-color: white;
+    color: #BF3314;
+    font-weight: bold;
+    border-radius: 3px;
+    padding: 4px;
+    margin-top: 10px;
+    margin-left: 1px;
+}
+.btn-submit span {
+    border-radius: 100%;
+    color: white;
+    background-color: #BF3314;
+    padding: 1px 5px;
+    margin-left: 3px;
+
+}
+.btn-clear {
+    margin-left: 75%;
+    padding-top: 10px;
+}
 
 @media (max-width: 992px){
     .logo-footer {
         visibility: hidden;
         height: 0;
+    }
+    .logo-footer {
+        margin: 0;
     }
     .logo-footer img {
         visibility: hidden;
@@ -97,5 +135,20 @@ input::-webkit-input-placeholder { /* Chrome/Opera/Safari */
     }
     .copyright {
         font-size: 12px;
+    }
+    .logo-footer {
+        margin: 0;
+    }
+    .menu-map h1 {
+        padding-left: 15%; 
+    }
+}
+@media (min-width: 320px) and (max-width: 480px) {
+    .list-menu li {
+        padding: 0 8px;
+    }
+    .list-menu a {
+        padding: 4px;
+        font-size: 18px;
     }
 }
