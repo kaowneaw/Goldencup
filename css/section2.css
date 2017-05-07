@@ -66,12 +66,16 @@
     position: absolute;
     top: 10%;
 }
+/*iframe {
+    width: 100vw; 
+    height: 56.25vw;
+}*/
 .intro-vdo {
     text-align: center;
 }
 .intro-vdo iframe {
-    width: 80%;
-    height: 280px;
+    width: 32vw; 
+    height: 18vw;
 }
 .leaf-right{
     max-width: 50%;
@@ -80,8 +84,15 @@
     bottom: 0px;
     right: 0px;
 }
+.golden-cup-shop {
+    padding: 0 50px;
+}
 
 @media (min-width: 320px) and (max-width: 480px) {
+    .intro-vdo iframe {
+        width: 70vw; 
+        height: 39.4vw; /* 100/56.25 = 560/315 = 1.778 */
+    }
     .list-menu li {
         padding: 0 8px;
     }
@@ -98,7 +109,10 @@
     .intro-vdo{
         padding-top: 0px;
     }
-
+    .intro-vdo iframe {
+        width: 70vw; 
+        height: 39.4vw; /* 100/56.25 = 560/315 = 1.778 */
+    }
     .about-content{
         padding-left: 10%;
         padding-right: 10%;

@@ -128,6 +128,11 @@ input::-webkit-input-placeholder { /* Chrome/Opera/Safari */
     .copyright {
         text-align: center;
     }
+    .map {
+        padding: 0 30px;
+        background-color: #f0ede5;
+        height: 450px;
+    }
 }
 @media only screen and (max-width: 768px) {
     .detail-contact-footer p {
@@ -142,6 +147,11 @@ input::-webkit-input-placeholder { /* Chrome/Opera/Safari */
     .menu-map h1 {
         padding-left: 15%; 
     }
+    .map {
+        padding: 0 30px;
+        background-color: #f0ede5;
+        height: 450px;
+    }
 }
 @media (min-width: 320px) and (max-width: 480px) {
     .list-menu li {
@@ -150,5 +160,10 @@ input::-webkit-input-placeholder { /* Chrome/Opera/Safari */
     .list-menu a {
         padding: 4px;
         font-size: 18px;
+    }
+    .map {
+        padding: 0 30px;
+        background-color: #f0ede5;
+        height: 450px;
     }
 }
