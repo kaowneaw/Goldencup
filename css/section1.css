@@ -32,6 +32,13 @@
     transform: translate(-50%, 0);
     color: white;
 }
+.title-section h1 {
+    font-size: 50px;
+}
+
+.title-section p {
+    font-size: 20px;
+}
 #Slider {
     min-width: 100%;
 }
