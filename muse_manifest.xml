@@ -1,0 +1,58 @@
+<manifest alg="2" build="2015.1.0.342" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive" exportTarget="other" domain="www.goldencup.co.th" resolutions="1x" timestamp="1469781906342">
+  <folder name="css">
+    <file name="site_global.css" crc="131700929"/>
+    <file name="index.css" crc="513011038" ref="index"/>
+  </folder>
+  <folder name="scripts">
+    <file name="jquery-1.8.3.min.js" crc="409338010" ref="index"/>
+    <file name="museutils.js" crc="4190794036" ref="index"/>
+    <file name="whatinput.js" crc="84559013" ref="index"/>
+    <file name="jquery.musepolyfill.bgsize.js" crc="3792042506" ref="index"/>
+    <file name="jquery.watch.js" crc="349565855" ref="index"/>
+    <file name="pie.js" crc="3827607177" ref="index"/>
+    <file name="jquery.musemenu.js" crc="3866264083" ref="index"/>
+    <file name="jquery.scrolleffects.js" crc="3837774061" ref="index"/>
+    <file name="html5shiv.js" crc="4241844378" ref="index"/>
+  </folder>
+  <folder name="images">
+    <file name="home_bg.jpg" crc="407845670" ref="index"/>
+    <file name="about_bg.jpg" crc="3877015432" ref="index"/>
+    <file name="about_image.png" crc="292391387" ref="index"/>
+    <file name="about_tab_bg.png" crc="3759593580" ref="index"/>
+    <file name="about_tab.png" crc="4254129251" ref="index"/>
+    <file name="product_bg.jpg" crc="189522766" ref="index"/>
+    <file name="inter_bg.jpg" crc="536632686" ref="index"/>
+    <file name="inter_map.png" crc="180077106" ref="index"/>
+    <file name="inter_tab.jpg" crc="4004260162" ref="index"/>
+    <file name="googlemap.jpg" crc="3764576986" ref="index"/>
+    <file name="header_logo.png" crc="232736622" ref="index"/>
+    <file name="product_detail.png" crc="3962608399" ref="index"/>
+    <file name="product_name.jpg" crc="170771259" ref="index"/>
+    <file name="product_tab.jpg" crc="269622482" ref="index"/>
+    <file name="product_detail_side.png" crc="4180094843" ref="index"/>
+    <file name="image_product1.png" crc="515723562" ref="index"/>
+    <file name="product_thumbnail.jpg" crc="3989795985" ref="index"/>
+    <file name="contact_form.jpg" crc="340578291" ref="index"/>
+    <file name="homt_banner1.png" crc="4272779802" ref="index"/>
+    <file name="about_header.png" crc="3931651232" ref="index"/>
+    <file name="home_header.png" crc="4119682773" ref="index"/>
+    <file name="about_detail.png" crc="251366061" ref="index"/>
+    <file name="home_enter.png" crc="485765669" ref="index"/>
+    <file name="u2080-4.png" crc="2481104" ref="index"/>
+    <file name="u2175-4.png" crc="54317263" ref="index"/>
+    <file name="u2154-4.png" crc="4166715104" ref="index"/>
+    <file name="u2133-4.png" crc="285922387" ref="index"/>
+    <file name="u2112-4.png" crc="424200523" ref="index"/>
+    <file name="u2200-5.png" crc="232484435" ref="index"/>
+    <file name="home_image.png" crc="4015423342" ref="index"/>
+    <file name="footer.jpg" crc="531217550" ref="index"/>
+    <file name="home_bg_img.png" crc="512160404" ref="index"/>
+    <file name="product_img.png" crc="3899275156" ref="index"/>
+    <file name="about_image2.png" crc="3970951217" ref="index"/>
+    <file name="p1-u3438.png" crc="117144738" ref="index"/>
+    <file name="p2-u3455.png" crc="4212769163" ref="index"/>
+    <file name="p3-u3468.png" crc="23471879" ref="index"/>
+    <file name="p4-u3478.png" crc="72968145" ref="index"/>
+  </folder>
+  <file name="index.html" crc="156863734" seo="true" mt="1469781430439" redirect="true"/>
+</manifest>

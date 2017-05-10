@@ -18,6 +18,7 @@
     <link rel="stylesheet" href="css/section4.css">
     <link rel="stylesheet" href="css/section5.css">
     <link rel="stylesheet" href="css/section6.css">
+    <!--<link rel="stylesheet" type="text/css" href="css/site_global.css"/>-->
 </head>
 
 <body data-spy="scroll" data-target=".navbar-fixed-top">
@@ -63,14 +64,14 @@
     <section id="section1">
         <div class="container" style="min-height: 100%;position: relative;">
             <div class="leaf-paper-mint pull-left">
-                <img src="img/section1/home_bg_img.png" class="img-responsive">
+                <img data-parallax='{"x": -120}' id="papermint" src="img/section1/home_bg_img.png" class="img-responsive museBGSize mse_pre_init">
             </div>
             <div class="golden-cup pull-right">
-                <img src="img/section1/home_image.png" class="img-responsive">
+                <img data-parallax='{"x": 120}' src="img/section1/home_image.png" class="img-responsive">
             </div>
             <div class="title-section">
-                <h1 class="text-center header">"MUST HAVE"</h1>
-                <p class="text-center">in every home,for use at anytime</p>
+                <h1 data-parallax='{"x": 120}' class="text-center header">"MUST HAVE"</h1>
+                <p data-parallax='{"x": 120}' class="text-center">in every home,for use at anytime</p>
                 <div id="Slider" class="carousel slide" data-ride="carousel">
                     <!-- Indicators -->
                     <ol class="carousel-indicators">
@@ -102,11 +103,11 @@
         </div>
     </section>
     <section id="section2">
-        <div class="box-golden-left">
-            <img src="img/section2/about_image.png" class="img-responsive">
+        <div class="box-golden">
+            <img data-parallax='{"x": -40}' src="img/section2/about_image.png" class="img-responsive">
         </div>
         <div class="leaf-right">
-            <img src="img/section2/about_image2.png" class="img-responsive">
+            <img data-parallax='{"x": 40}' src="img/section2/about_image2.png" class="img-responsive">
         </div>
         <div class="container" style="min-height: 100%;position: relative;">
             <div class="container about">
@@ -131,13 +132,16 @@
                 </div>
                 <div class="about-content">
                     <div class="row">
+                        <!--<div data-parallax='{"x": 20}' class="intro-vdo col-md-5">-->
                         <div class="intro-vdo col-md-5">
                             <iframe class="youtube" src="https://www.youtube.com/embed/HQp5hQ67TEs" frameborder="0" allowfullscreen></iframe>
                         </div>
                         <div class="golden-cup-shop col-md-7">
-                            <div class="topic">
+                            <div data-parallax='{"x": -20}' class="topic">
+                            <!--<div class="topic">-->
                                 <p>"RUB & RUB" <br>TO RELIEVE</p>
                             </div>
+                            <!--<div data-parallax='{"x": 30}' class="topic-detail">-->
                             <div class="topic-detail">
                                 <p>Golden Cup Balm, a world famous topical pain relieving ointment has been proven effective for
                                     more than 60 years and is used by millions of people. Golden Cup Pharmaceutical Co., Ltd.
@@ -152,7 +156,7 @@
     </section>
     <section id="section3">
         <div class="oli">
-            <img src="img/section3/pic_bg.png" class="img-responsive">
+            <img data-parallax='{"x": -50}' src="img/section3/pic_bg.png" class="img-responsive">
         </div>
         <div class="container " style="min-height: 100%;">
             <h1 class="text-red-golden text-center header" style="margin-top: 0px;">PRODUCTS</h1>
@@ -462,7 +466,15 @@
 </body>
 
 </html>
+<script type="text/javascript">
+   if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required":["jquery-3.2.0.min.js", "museutils.js", "jquery.scrolleffects.js"], "outOfDate":[]};
+</script>
+
 <script src="asset/jquery-3.2.0.min.js"></script>
+<script src="asset/jquery.browser.js"></script>
+<!--<script src="asset/museutils.js" type="text/javascript"></script>-->
+<!--<script src="asset/jquery.musepolyfill.bgsize.js" type="text/javascript"></script>-->
+<!--<script src="asset/jquery.scrolleffects.js" type="text/javascript"></script>-->
 <script src="asset/bootstrap-3.3.7/js/bootstrap.min.js"></script>
 <script src="asset/startbootstrap/js/jquery.easing.min.js"></script>
 <script src="asset/startbootstrap/js/scrolling-nav.js"></script>
@@ -472,6 +484,10 @@
 <script type="text/javascript" src="asset/purejscarousel.js"></script>
 <script type="text/javascript" src="asset/lightslider.min.js"></script>
 <script type="text/javascript" src="js/my-script.js"></script>
+
+<!--pallax scroll-->
+<script src="asset/jquery.easing.1.3.js"></script>
+<script src="asset/jquery.parallax-scroll.js"></script>
 <script>
 function myMap() {
     var mapCanvas = document.getElementById("googleMap");
